@@ -2,10 +2,11 @@
 ---------------------------------------------------*/
 
 .minilogo {
-    background-image: url("./images/mini-logo.jpg");
+    background-image: url("./images/mini-logo.png");
 	background-repeat: no-repeat;
 	background-position: top right;
-	width: 133px;
-	height: 44px;
+	background-size: contain;
+	width: 70px;
+	height: 70px;
 
 }

@@ -16,15 +16,12 @@
 <!-- EVENT index_body_stat_blocks_before -->
 
 <div class="tabs-container tab-stat-block">
-<!-- IF not S_USER_LOGGED_IN and not S_IS_BOT -->
-	<!-- DEFINE $SHOW_PANEL = 'quick-login' -->
-<!-- ELSE -->
-	<!-- DEFINE $SHOW_PANEL = 'online-list' -->
-<!-- ENDIF -->
-	<div id="tabs-index" class="tabs-index sub-panels" data-show-panel="{$SHOW_PANEL}" role="tablist">
+	<div id="tabs-index" class="tabs-index sub-panels" data-show-panel="quick-login" role="tablist">
 		<ul>
 		<!-- IF not S_USER_LOGGED_IN and not S_IS_BOT -->
-		<li id="quick-login-tab" class="tab-index"><a href="#tabs" class="hvr-sweep-to-right" data-subpanel="quick-login" role="tab" aria-controls="quick-login">{L_LOGIN_LOGOUT}</a></li><!-- ENDIF --><!-- IF S_DISPLAY_ONLINE_LIST --><li id="online-list-tab" class="tab-index"><a href="#tabs" class="hvr-sweep-to-right" data-subpanel="online-list" role="tab" aria-controls="online-list">{L_WHO_IS_ONLINE}</a></li><!-- ENDIF --><!-- IF S_DISPLAY_BIRTHDAY_LIST --><li id="bithday-list-tab" class="tab-index"><a href="#tabs" class="hvr-sweep-to-right" data-subpanel="bithday-list" role="tab" aria-controls="bithday-list">{L_BIRTHDAYS}</a></li><!-- ENDIF --><!-- IF NEWEST_USER --><li id="statistics-tab" class="tab-index"><a href="#tabs" class="hvr-sweep-to-right" data-subpanel="statistics" role="tab" aria-controls="statistics">{L_STATISTICS}</a></li><!-- ENDIF -->
+		<li id="quick-login-tab" class="tab-index">
+		<a href="#tabs" class="hvr-sweep-to-right" data-subpanel="quick-login" role="tab" aria-controls="quick-login">{L_LOGIN_LOGOUT}</a></li><!-- ENDIF --><li id="online-list-tab" class="tab-index"><a href="#tabs" class="hvr-sweep-to-right" data-subpanel="online-list" role="tab" aria-controls="online-list">{L_WHO_IS_ONLINE}</a></li><li id="bithday-list-tab" class="tab-index"><a href="#tabs" class="hvr-sweep-to-right" data-subpanel="bithday-list" role="tab" aria-controls="bithday-list">{L_BIRTHDAYS}</a></li>
+			<li id="statistics-tab" class="tab-index"><a href="#tabs" class="last-a hvr-sweep-to-right" data-subpanel="statistics" role="tab" aria-controls="statistics">{L_STATISTICS}</a></li>
 		</ul>
 	</div>
 </div>

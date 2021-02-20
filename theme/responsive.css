@@ -6,6 +6,16 @@
 		max-width: 160px;
 	}
 
+	ul.linklist > li {
+		float: left;
+		font-size: 1.000em;
+		line-height: 1.200em;
+		list-style-type: none;
+		margin-right: 7px;
+		padding-top: 1px;
+		width: auto;
+	}
+
 	.day-time {
 		font-size: 0.950em;
 	}

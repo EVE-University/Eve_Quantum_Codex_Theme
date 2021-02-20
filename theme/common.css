@@ -197,8 +197,8 @@ a:hover	{ text-decoration: none; }
 	border: 0;
 	margin: 0 auto;
 	padding: 0;
-	min-width: 625px;
 	max-width: 1152px;
+	min-width: 625px;
 }
 
 .page-body {
@@ -215,8 +215,8 @@ a:hover	{ text-decoration: none; }
 }
 
 #toplogo {
-	min-width: 290px;
 	max-width: 1152px;
+	min-width: 290px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -236,8 +236,8 @@ a:hover	{ text-decoration: none; }
 -----------------------------*/
 .site_logo {
 	display: block;
-	width: 220px;
-	height: 72px;
+	width: 490px;
+	height: 60px;
 	background-repeat: no-repeat;
 }
 
